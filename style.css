@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: black; 
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+.Orange {
+    position: absolute;
+    bottom: 30px;
+    background-color: goldenrod;
+    width: 150px;
+    height: 10px;
+    border-radius: 16px;
+    transition: 200ms;
+}
+.Red {
+    position: absolute;
+    top: 30px;
+    background-color: red;
+    width: 150px;
+    height: 10px;
+    border-radius: 16px;
+    transition: 200ms;
+}
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    transition: 80ms;
+}
+.score {
+    color: white;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 30px;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.replay {
+    width: 100px;
+    height: 44px;
+    border-radius: 9px;
+    color: red;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #000;
+    margin: 30px 40%;
+}
+.hidden {
+    visibility: hidden;
+}
