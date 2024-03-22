@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+/* Reset de la page html */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Définition de la taille */
 body {
     width: 100%;
     height: 100vh;
 }
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+/* Page Accueil */
 .accueil {
     display: flex;
     flex-direction: column;
@@ -42,6 +48,12 @@ h1 {
 .start:hover {
     opacity: 55%;
 }
+
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+/* Jeu */
+
 .main {
     width: 100%;
     height: 100vh;
