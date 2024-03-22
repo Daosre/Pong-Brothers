@@ -1,10 +1,15 @@
+//Définition de la Hauteur/ Largueur de la page.
 let maxWidth = window.innerWidth
 let maxHeight = window.innerHeight
-let currentDirection = 'top-right'
+//Direction de départ de la balle.
+let currentDirection = 'top-left'
+//Initialisation du score
 let score = 0
 let gameInterval
 let gameOver = false
+//Initialisation de la vélocité de départ.
 let velocity = 0
+//Sélection des différentes classe CSS que nous chageons au court de commande.
 let gameOn = document.querySelector('.start')
 let Go = document.querySelector('.accueil')
 let game = document.querySelector('.main')
@@ -13,7 +18,7 @@ let playerone = document.querySelector('.Player1')
 let playertwo = document.querySelector('.Player2')
 let balls = document.querySelector('.ball')
 
-
+//Apparition du jeu / Disparition du Menu.
 gameOn.addEventListener('click', () => {
     Go.style.display = 'none'
     game.style.display = 'block'
@@ -25,7 +30,6 @@ class Platform {
         this.positionY = positionY
         this.className = className
     }
-
     // Place correctement la plateforme au début du jeu, en servant de la variable maxWidth, qui est la largeur de l'écran réele.
     init() {
         this.positionX = maxWidth / 2 - 75
@@ -54,9 +58,11 @@ class Platform {
 
 let plateformOrange = new Platform(500,maxHeight - 80, "Orange")
 let plateformRouge = new Platform(500,40,"Red")
+//Initialisation des emplacements des joueurs.
 plateformOrange.init()
 plateformRouge.init() 
 
+//Programmation des touches pour le déplacement des joueurs.
 document.addEventListener('keydown', function (event) {
     if (event.code === 'ArrowLeft') {
         plateformOrange.move('left')
@@ -68,12 +74,13 @@ document.addEventListener('keydown', function (event) {
     } if(event.code === 'KeyD') {
         plateformRouge.move('right')
     }
+    //Initialisation du départ de la partie avec disparition des éléments qui gène.
     if (event.code === 'Space') {
         text.style.display = 'none'
         playerone.style.display = 'none'
         playertwo.style.display = 'none'
         balls.style.display = 'block'
-        // On veut une fonction qui démarre la mécanique du jeu ( ball.move() )
+        //Rechargement en cas de défaite.
         if (gameOver === true) {
             ball.init()
             gameOver = false
@@ -87,18 +94,19 @@ class Ball {
         this.positionX = positionX
         this.positionY = positionY
     }
+    //Initalisation du point de départ.
     init() {
         this.positionX = maxWidth / 2 - 10
         this.positionY = maxHeight / 2 - 20
         this.display()
     }
-
+    //Méthode d'apparition.
     display() {
         let ball = document.querySelector('.ball')
         ball.style.top = `${this.positionY}px`
         ball.style.left = `${this.positionX}px`
     }
-
+    //Méthode pour le déplacement.
     move() {
         this.handleCollision()
         switch (currentDirection) {
@@ -122,7 +130,6 @@ class Ball {
             default:
                 return
         }
-
         this.display()
     }
     handleCollision() {
@@ -163,17 +170,17 @@ class Ball {
                 } else {
                     currentDirection = 'top-right'
                 }
-                
             } else {
                 gameOver = true
                 scoreText.innerText = `Loose with ${score}pts. Nice Try !`
                 this.display()
                 handleGame()
             }
-        }            
+        } 
+
+        //Collision avec la platformRouge    
         if (this.positionY <= plateformRouge.positionY) {
             let platformPosition = plateformRouge.returnPosition()
-            //Platform Rouge, Collision avec la platformRouge
             if (this.positionX >= platformPosition[0] &&
                 this.positionX <= platformPosition[1]) {
                 velocity += 1
@@ -195,11 +202,10 @@ class Ball {
     }
 
 // Démarrage du jeu sans mécanique
-
 let ball = new Ball(20, 20)
 ball.init()
 
-// On veut une fonction qui démarre la mécanique du jeu
+//Démarrage du jeu.
 function handleGame() {
     if (gameOver === false) {
         gameInterval = setInterval(() => {
