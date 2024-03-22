@@ -5,8 +5,14 @@ let score = 0
 let gameInterval
 let gameOver = false
 let velocity = 0
+let gameOn = document.querySelector('.start')
+let Go = document.querySelector('.accueil')
+let game = document.querySelector('.main')
 
-
+gameOn.addEventListener('click', () => {
+    Go.style.display = 'none'
+    game.style.display = 'block'
+})
 //Platform Orange
 class Platform {
     constructor(positionX,positionY, className) {

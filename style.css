@@ -1,54 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
+.accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
+}
+.accueil img {
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    position: absolute;
+    top: 30%;
+    font-family: "Kolker Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+}
+.start {
+    background: rgb(232,232,235);
+    background: linear-gradient(351deg, rgba(232,232,235,1) 0%, rgba(239,160,11,1) 35%, rgba(152,7,7,1) 100%);
+    font-size: 80px;
+    font-family: "Kolker Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    width: 20%;
+    top: 60%;
+    border-radius: 10px;
+    position: absolute;
+}
+.start:hover {
+    opacity: 55%;
+}
 .main {
     width: 100%;
     height: 100vh;
     max-height: 100vh;
     max-width: 100%;
     position: relative;
+    display: none;
 }
 .main img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    filter: blur(4px);
 }
 .Orange {
     position: absolute;
+    background: rgb(131,58,180);
+    background: linear-gradient(95deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     bottom: 30px;
-    background-color: goldenrod;
     width: 150px;
     height: 10px;
     border-radius: 16px;
     transition: 200ms;
+    filter: drop-shadow(3px 3px 6px black);
 }
 .Red {
     position: absolute;
     top: 30px;
-    background-color: red;
+    background: rgb(2,0,36);
+    background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(231,73,73,1) 35%, rgba(0,212,255,1) 100%);
     width: 150px;
     height: 10px;
     border-radius: 16px;
     transition: 200ms;
+    filter: drop-shadow(3px 3px 6px black);
 }
 .ball {
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    background-color: purple;
+    background-color: red;
+    border: 2px solid black;
     filter: drop-shadow( 0 0 5px red);
     position: absolute;
     bottom: 50px;
     transition: 80ms;
 }
 .score {
-    color: white;
+    color: black;
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
