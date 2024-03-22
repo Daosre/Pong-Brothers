@@ -8,6 +8,11 @@ let velocity = 0
 let gameOn = document.querySelector('.start')
 let Go = document.querySelector('.accueil')
 let game = document.querySelector('.main')
+let text = document.querySelector('.textstart')
+let playerone = document.querySelector('.Player1')
+let playertwo = document.querySelector('.Player2')
+let balls = document.querySelector('.ball')
+
 
 gameOn.addEventListener('click', () => {
     Go.style.display = 'none'
@@ -64,6 +69,10 @@ document.addEventListener('keydown', function (event) {
         plateformRouge.move('right')
     }
     if (event.code === 'Space') {
+        text.style.display = 'none'
+        playerone.style.display = 'none'
+        playertwo.style.display = 'none'
+        balls.style.display = 'block'
         // On veut une fonction qui démarre la mécanique du jeu ( ball.move() )
         if (gameOver === true) {
             ball.init()
@@ -157,7 +166,7 @@ class Ball {
                 
             } else {
                 gameOver = true
-                scoreText.innerText = `Perdu avec ${score} points`
+                scoreText.innerText = `Loose with ${score}pts. Nice Try !`
                 this.display()
                 handleGame()
             }
