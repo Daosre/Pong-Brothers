@@ -2,7 +2,11 @@
 
 
 - Image de fond généré avec l'IA Copilot (intégré a Edge).
+  ![Design sans titre](https://github.com/Daosre/Pong-Brothers/assets/161069654/a81bb489-c9c5-495d-a36b-56bf4a7163b8)
+
 - Le typographie utilisé et : Kolker Brush. (Lien Google Font : "https://fonts.google.com/specimen/Kolker+Brush?query=kol").
+
+
 - Couleur du Titre : rgb(44, 40, 40);
 - Couleur des explications directionnelle : rgba(255, 255, 255, 0.909);
 - Couleur du joueur 1 : linear-gradient(351deg, rgba(232,232,235,1) 0%, rgba(239,160,11,1) 35%, rgba(152,7,7,1) 100%);
