@@ -1,4 +1,4 @@
-Pong-Brother ! 
+Pong-Brother !
 
 Règle du jeu : 
 
