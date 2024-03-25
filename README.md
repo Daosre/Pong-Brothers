@@ -14,8 +14,8 @@
 - A chaque rebond sur un joueur la balle prend de la vitesse histoire d'en surprendre plus d'un !
 - Ceci est un jeu d'équipe !
 - Ne pas tricher en genant la personne avec qui vous jouez !
-- 
+
+  
 ![Crédits](https://github.com/Daosre/Pong-Brothers/assets/161069654/74397ead-fad4-4c7a-957b-a120476d37eb)
 
-![design ](https://github.com/Daosre/Pong-Brothers/assets/161069654/ee5c653f-4942-420e-b66e-0461e01fa8c2)
-Daorse
+![Design](https://github.com/Daosre/Pong-Brothers/assets/161069654/bc2875e4-9479-483d-83d4-748260c27ed7)
