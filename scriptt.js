@@ -17,11 +17,19 @@ let text = document.querySelector('.textstart')
 let playerone = document.querySelector('.Player1')
 let playertwo = document.querySelector('.Player2')
 let balls = document.querySelector('.ball')
+//Bouton règles.
+let rules = document.querySelector('.rules')
+let rule = document.querySelector('.rule')
 
 //Apparition du jeu / Disparition du Menu.
 gameOn.addEventListener('click', () => {
     Go.style.display = 'none'
     game.style.display = 'block'
+})
+//Activation du bouton au click pour faire apparaitre les règles.
+rules.addEventListener('click', () => {
+    rules.style.display = 'none'
+    rule.style.display = 'block'
 })
 //Platform Orange
 class Platform {
