@@ -16,6 +16,7 @@
 - Ne pas tricher en genant la personne avec qui vous jouez !
 
 
+![Crédit](https://github.com/Daosre/Pong-Brothers/assets/161069654/34800d7c-b1dc-49ca-84f2-58e34f025cf6)
 
-Crédit : DWWM2024 / Daorse
-Design : Daorse
+![design ](https://github.com/Daosre/Pong-Brothers/assets/161069654/ee5c653f-4942-420e-b66e-0461e01fa8c2)
+Daorse
