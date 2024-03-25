@@ -17,5 +17,5 @@
 
 
 ![Crédits](https://github.com/Daosre/Pong-Brothers/assets/161069654/37f42b28-7611-4749-88e4-c0907458d1e6)
-![design](https://github.com/Daosre/Pong-Brothers/assets/161069654/3c4c61f3-9dab-4ffc-90de-c2d25410a20b)
+![Daorse](https://github.com/Daosre/Pong-Brothers/assets/161069654/e1dcadc5-970e-4b17-9009-8ffa7061fd59)
 
