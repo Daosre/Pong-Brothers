@@ -1,5 +1,6 @@
 
-![Jeux (2)](https://github.com/Daosre/Pong-Brothers/assets/161069654/d1cc4808-a23e-4be4-a0e9-7e30e154aa09)
+![Jeux](https://github.com/Daosre/Pong-Brothers/assets/161069654/4a63e9e3-2dad-4ff1-9196-aba7faac5dc8)
+
 
                             /------------------------------------------------------------------------------------\
                                     
