@@ -13,14 +13,14 @@
 ![Capture d’écran_2024-03-25_12-19-23](https://github.com/Daosre/Pong-Brothers/assets/161069654/4f99b850-d586-4de3-ba20-9b3038f2ce8b)
 
 
-- Couleur du bouton Start :
+- Couleur du bouton Start / Rules :
   
    background: rgb(232,232,235);
    background: linear-gradient(351deg, rgba(232,232,235,1) 0%, rgba(239,160,11,1) 35%, rgba(152,7,7,1) 100%);
+- Typographie des règles : ("https://fonts.google.com/selection/embed")
 
   
  ![Capture d’écran_2024-03-25_12-17-20](https://github.com/Daosre/Pong-Brothers/assets/161069654/571c5103-9ffd-4204-ba54-b0e4b54d8c6d)
-
 - Couleur des explications directionnelle : rgba(255, 255, 255, 0.909);
   
   ![Capture d’écran_2024-03-25_12-20-18](https://github.com/Daosre/Pong-Brothers/assets/161069654/661fcacc-70d2-4898-b9a5-b4b06e1ae3f5)
