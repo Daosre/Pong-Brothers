@@ -15,7 +15,7 @@
 - Ceci est un jeu d'équipe !
 - Ne pas tricher en genant la personne avec qui vous jouez !
 
-  
-![Crédits](https://github.com/Daosre/Pong-Brothers/assets/161069654/74397ead-fad4-4c7a-957b-a120476d37eb)
+![crédits](https://github.com/Daosre/Pong-Brothers/assets/161069654/e6b7933a-9e31-41ce-9d08-16238a400595)
+
 ![design](https://github.com/Daosre/Pong-Brothers/assets/161069654/3c4c61f3-9dab-4ffc-90de-c2d25410a20b)
 
