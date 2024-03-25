@@ -2,6 +2,8 @@ Pong-Brother !
 
 Règle du jeu : 
 
+/!\ Pensez à rafraichir votre page a chaque fois que vous changez de taille d'écran ! Sinon tout serra mal placer ! /!\
+
 
 - Toute instruction est marqué après avoir appuyer sur le bouton start
 - Ne pas perdre la balle.
