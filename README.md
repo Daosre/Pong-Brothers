@@ -1,5 +1,5 @@
 
-![Jeux (1)](https://github.com/Daosre/Pong-Brothers/assets/161069654/b6d7cbb6-4fa2-459a-9ae1-e7199a8481fa)
+![Jeux (2)](https://github.com/Daosre/Pong-Brothers/assets/161069654/d1cc4808-a23e-4be4-a0e9-7e30e154aa09)
 
 Règle du jeu : 
 
