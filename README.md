@@ -17,18 +17,5 @@ Règle du jeu :
 
 
 
-Charte Graphique : 
-- Image de fond généré avec l'IA Copilot
-- Le typographie utilisé et :
-- Couleur du Titre : #
-- Couleur des explications directionnelle : #
-- Couleur du joueur 1 : linear-gradient(351deg, rgba(232,232,235,1) 0%, rgba(239,160,11,1) 35%, rgba(152,7,7,1) 100%)
-- Couleur du joueur 2 : linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(231,73,73,1) 35%, rgba(0,212,255,1) 100%);
-
-
-
-
-
-
 Crédit : DWWM2024 / Daorse
 Design : Daorse
