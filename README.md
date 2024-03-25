@@ -16,5 +16,5 @@
   - Ne pas tricher en genant la personne avec qui vous jouez !
 ![Crédits](https://github.com/Daosre/Pong-Brothers/assets/161069654/37f42b28-7611-4749-88e4-c0907458d1e6)
 ![Rules (1)](https://github.com/Daosre/Pong-Brothers/assets/161069654/f89c2e0a-0af2-486c-b8d3-22847d891ffb)
-![Daorse](https://github.com/Daosre/Pong-Brothers/assets/161069654/e1dcadc5-970e-4b17-9009-8ffa7061fd59)
+![Daorse (1)](https://github.com/Daosre/Pong-Brothers/assets/161069654/41737003-27ff-4463-a8a4-d1be843b131c)
 
