@@ -100,6 +100,7 @@ document.addEventListener('keydown', function (event) {
         handleGame()
     }
 })
+//Création de la classe Ball
 class Ball {
     constructor(positionX, positionY) {
         this.positionX = positionX
@@ -143,6 +144,7 @@ class Ball {
         }
         this.display()
     }
+    //Collision de la balle
     handleCollision() {
         if (this.positionX >= maxWidth - 10) {
             if (currentDirection === 'top-right') {
@@ -166,7 +168,7 @@ class Ball {
             }
         }            
         let scoreText = document.querySelector('.score')
-        //
+        //Si la balle touche l(emplacement ou ce trouve le joueur que ce passe t-il.
         if (this.positionY >= plateformOrange.positionY) {
             let platformPosition = plateformOrange.returnPosition()
             //Platform Orange, Collision avec la platformOrange
