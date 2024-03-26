@@ -166,21 +166,22 @@ class Ball {
             }
         }            
         let scoreText = document.querySelector('.score')
+        //
         if (this.positionY >= plateformOrange.positionY) {
             let platformPosition = plateformOrange.returnPosition()
-            console.log(this.positionY,platformPosition)
-
             //Platform Orange, Collision avec la platformOrange
             if (this.positionX >= platformPosition[0] &&
                 this.positionX <= platformPosition[1]) {
                 velocity += 1
                 score++
                 scoreText.innerText = `Score: ${score}`
+                //Choix de la direction en fonction de la ou la balle rebondit
                 if (currentDirection === 'bottom-left') {
                     currentDirection = 'top-left'
                 } else {
                     currentDirection = 'top-right'
                 }
+                //Affichage du texte quand c'est GameOver
             } else {
                 gameOver = true
                 scoreText.innerText = `Loose with ${score}pts. Nice Try !`
