@@ -59,11 +59,12 @@ class Platform {
         const platform = document.querySelector(`.${this.className}`)
         platform.style.left = `${this.positionX}px`
     }
+    //Retourne l'emplacement du joueur
     returnPosition() {
         return [this.positionX, this.positionX + 150]
     }
 }
-
+//Création des joueurs
 let plateformOrange = new Platform(500,maxHeight - 80, "Orange")
 let plateformRouge = new Platform(500,40,"Red")
 //Initialisation des emplacements des joueurs.
@@ -72,11 +73,13 @@ plateformRouge.init()
 
 //Programmation des touches pour le déplacement des joueurs.
 document.addEventListener('keydown', function (event) {
+    //Déplacement joueur 1
     if (event.code === 'ArrowLeft') {
         plateformOrange.move('left')
     } if (event.code === 'KeyA'){
         plateformRouge.move('left')
     }
+    //Déplacement joueur 2
     if (event.code === 'ArrowRight') {
         plateformOrange.move('right')
     } if(event.code === 'KeyD') {
