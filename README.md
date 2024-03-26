@@ -1,6 +1,7 @@
 
 ![Jeux](https://github.com/Daosre/Pong-Brothers/assets/161069654/4a63e9e3-2dad-4ff1-9196-aba7faac5dc8)
 
+Lien direct vers la page du jeu : https://pong-brothers.netlify.app/
 
                             /------------------------------------------------------------------------------------\
                                     
